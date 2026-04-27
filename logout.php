@@ -1,5 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header("Location: login.php");
+header("Location: /lost_found_project/lost_found/index.php");
+exit();
 ?>
